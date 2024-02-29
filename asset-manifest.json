@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nested-comments/static/css/main.3cc96b29.css",
+    "main.css": "/nested-comments/static/css/main.35876391.css",
     "main.js": "/nested-comments/static/js/main.68241942.js",
     "static/media/background.png": "/nested-comments/static/media/background.18483284984102dd7624.png",
     "static/media/han-solo.jpg": "/nested-comments/static/media/han-solo.84705bac66e252072c67.jpg",
@@ -8,11 +8,11 @@
     "static/media/like_gray_border.svg": "/nested-comments/static/media/like_gray_border.104d7fa95e36c483908db2d211f96e3f.svg",
     "static/media/like_border.svg": "/nested-comments/static/media/like_border.2a5647e70d2c683249da3f209e676ad9.svg",
     "index.html": "/nested-comments/index.html",
-    "main.3cc96b29.css.map": "/nested-comments/static/css/main.3cc96b29.css.map",
+    "main.35876391.css.map": "/nested-comments/static/css/main.35876391.css.map",
     "main.68241942.js.map": "/nested-comments/static/js/main.68241942.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cc96b29.css",
+    "static/css/main.35876391.css",
     "static/js/main.68241942.js"
   ]
 }

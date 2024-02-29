@@ -1,3 +1,5 @@
+@import "@/styles/variables";
+
 .root {
   display: flex;
   align-items: center;
@@ -7,4 +9,10 @@
   font-weight: 700;
   color: #fff;
   border-bottom: 1px solid #767676;
+}
+
+@media (max-width: $mobile-breakpoint) {
+  .root {
+    font-size: 14px;
+  }
 }

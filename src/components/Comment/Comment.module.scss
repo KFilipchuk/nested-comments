@@ -1,3 +1,6 @@
+@use "@/styles/mixins";
+@import "@/styles/variables";
+
 .root {
   display: flex;
   flex-direction: column;
@@ -18,24 +21,52 @@
     }
 
     .info {
-      margin-left: 20px;
+      margin: 0 5px 0 20px;
+      overflow: hidden;
 
       .name {
         margin-bottom: 4px;
         font-weight: 700;
+        @include mixins.ellipsis;
       }
 
       .created {
         color: #8297AB;
+        @include mixins.ellipsis;
       }
     }
 
     .likes {
       margin-left: auto;
+      flex-shrink: 0;
     }
   }
 
   .text {
     padding-left: 88px;
+    word-wrap: break-word;
+  }
+}
+
+@media (max-width: $mobile-breakpoint) {
+  .root {
+    margin-top: 24px;
+    font-size: 14px;
+
+    &.child {
+      padding-left: 20px;
+    }
+
+    .header {
+      .info {
+        .name {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .text {
+      padding-left: 60px;
+    }
   }
 }

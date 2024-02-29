@@ -1,18 +1,15 @@
 {
   "files": {
-    "main.css": "/nested-comments/static/css/main.9098901f.css",
-    "main.js": "/nested-comments/static/js/main.68241942.js",
+    "main.css": "/nested-comments/static/css/main.68eaa997.css",
+    "main.js": "/nested-comments/static/js/main.97662d2e.js",
     "static/media/background.webp": "/nested-comments/static/media/background.a732215610f603d28705.webp",
     "static/media/han-solo.jpg": "/nested-comments/static/media/han-solo.84705bac66e252072c67.jpg",
-    "static/media/like_fill.svg": "/nested-comments/static/media/like_fill.ec3e9e66434b77be602a255c9faf17ac.svg",
-    "static/media/like_gray_border.svg": "/nested-comments/static/media/like_gray_border.104d7fa95e36c483908db2d211f96e3f.svg",
-    "static/media/like_border.svg": "/nested-comments/static/media/like_border.2a5647e70d2c683249da3f209e676ad9.svg",
     "index.html": "/nested-comments/index.html",
-    "main.9098901f.css.map": "/nested-comments/static/css/main.9098901f.css.map",
-    "main.68241942.js.map": "/nested-comments/static/js/main.68241942.js.map"
+    "main.68eaa997.css.map": "/nested-comments/static/css/main.68eaa997.css.map",
+    "main.97662d2e.js.map": "/nested-comments/static/js/main.97662d2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.9098901f.css",
-    "static/js/main.68241942.js"
+    "static/css/main.68eaa997.css",
+    "static/js/main.97662d2e.js"
   ]
 }

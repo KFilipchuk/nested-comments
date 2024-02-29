@@ -1,0 +1,41 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  font-size: 16px;
+  color: #fff;
+
+  &.child {
+    padding-left: 34px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+
+    .avatar {
+      flex-shrink: 0;
+    }
+
+    .info {
+      margin-left: 20px;
+
+      .name {
+        margin-bottom: 4px;
+        font-weight: 700;
+      }
+
+      .created {
+        color: #8297AB;
+      }
+    }
+
+    .likes {
+      margin-left: auto;
+    }
+  }
+
+  .text {
+    padding-left: 88px;
+  }
+}

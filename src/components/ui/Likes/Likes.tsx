@@ -1,8 +1,8 @@
 import cn from 'classnames'
 import {observer} from 'mobx-react-lite'
-import {ReactComponent as GrayLikeBorderIcon} from '@/assets/like_gray_border.svg'
-import {ReactComponent as LikeBorderIcon} from '@/assets/like_border.svg'
-import {ReactComponent as LikeFillIcon} from '@/assets/like_fill.svg'
+import {LikeBorder as LikeBorderIcon} from '@/icons/LikeBorder'
+import {LikeGrayBorder as GrayLikeBorderIcon} from '@/icons/LikeGrayBorder'
+import {LikeFill as LikeFillIcon} from '@/icons/LikeFill'
 import styles from './Likes.module.scss'
 
 interface Props {
